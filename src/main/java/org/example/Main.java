@@ -16,11 +16,14 @@ public class Main {
     private static int squareDigits(int n) {
         String num2str = String.valueOf(n);
 
-        for (int i =0; i<num2str.length(); i++)
-            //later wii finish
+        for (int i = 0; i < num2str.length(); i++) {
+            char num = num2str.charAt(i);
+            int num2int = Character.getNumericValue(num);
+            int squaredDigit = num2int* num2int;
 
-        return 0;
+            return 0;
+        }
+        return n;
     }
-
 
 }
