@@ -21,7 +21,6 @@ public class Main {
         StringBuilder resultstr = new StringBuilder();
         int str2int = 0;
 
-
         for (int i = 0; i < num2str.length(); i++) {
             char num = num2str.charAt(i);
             int num2int = Character.getNumericValue(num);
